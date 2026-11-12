@@ -35,4 +35,4 @@ Data: `dataset/Davis.csv` and `dataset/KIBA.csv` with columns `COMPOUND_SMILES`,
 
 Notes: checkpoints are always written as `kiba_best_model_fold_{fold}.pt` regardless of the dataset; the perturbation scripts read `case_analysis_results/low_error_cases.csv` and `all_case_predictions.csv`, exported from the case-analysis output. Padding masks use `True` for padded positions. Weight files, processed features and datasets are not included in this repository.
 
-Cite: W. Lan, T. Huang, Q. Chen, M. Li, Y. Pan. CrossMamba-DTA: A Cross-Modal State Space Model for Drug-Target Affinity Prediction. *Bioinformatics*, 2026.
+Cite: W. Lan, T. Huang, Q. Chen, M. Li, Y. Pan. CrossMamba-DTA: A Cross-Modal State Space Model for Drug-Target Affinity Prediction.
